@@ -1,0 +1,205 @@
+DirectX Repair V4.1
+New Features:
+    C++ online repairing is available. If any of the C++ components are failed to be repaired during the auto repairing process, users could check the detailed file names in a form. Users could right click on the malfunctioned files and choose the option "repair online" to repair it from repairing cloud. This process requires Internet connections.
+    API Sets files can be downloaded from the server. If the user enable API Sets enhanced repairing for the first time, the programme will download the required files from the server automatically if they are missing.
+
+Improved Features:
+    The dependence of required .NET runtime is optimised. From V4.1 on, this programme will no longer provide DirectX_Repair_win8_win10.exe. Instead, DirectX Repair.exe is designed to be compatible with all Windows OS versions to decrease the difficulty of selecting executable for new users.
+    Some C++ packages are updated. According to the feedbacks from users, C++ 2013 and C++ 2015-2019 packages have been updated to the latest version. New packages have better compatibility and can fix more errors.
+    The support for C++ 2013 is optimized. The programme will automatically check if the required certificate is existed when the C++ enhanced repairing is enabled. If the certificate is missing, the programme will install it first before repairing it.
+    The feature of extending is optimized. The programme will check if the required certificate is existed before downloading the target files to avoid any failure from this issue. The new SHA256 signature is supported to enhance the security of the programme.
+    The feature of commercial use is optimized. This programme is for non-profit personal use only by default. The new commercial authentication provides various methods for individuals and enterprises. The authentication can provide convenient features especially for business users.
+    The size of API Sets packages is optimized. The code for this feature has been improved; hence the data packages are smaller from this improvement.
+    The style of verification code in the feedback form is optimized. The new style decreases the size of the programme while enhances the security.
+    Other detailed improvements.
+
+
+Fixed Bugs:
+A bug that may provide incorrect prompts while upgrading is fixed.
+
+--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------Dividing Line-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+DirectX Repair V4.0 (Key Updates)
+New Features:
+    C++ error details are available if any of C++ components is failed to be repaired. The users shall enable the function "Enable debug mode when failed" in the Form "Option" first to use this feature. Once it is enabled, the users could check the detailed information about the C++ errors, and repair them manually with assistance from the programme.
+    A new tab named "Advanced" is available in the "Option" form. In this tab, users can control the mode of repairing C++ components. The default value is Intelligent, while other options such as Mandatory, Don't tick by default, Don't prompt exceptions, and Don't detect are also provided. C++ Enhanced Repairing and API Sets Enhanced Repairing are also moved from Lab tab to this tab to have consistency with other C++ features. The features provided previously in Advanced tab are moved to Registration tab.
+    A new switch to change the downloading mode for extending is available. This programme will use unsecured link by default. If the downloading process is blocked by the firewall or other software, users can switch to secure link to avoid it.
+    A new command is available to control the extending process of C++ components. If users add a command "ExtendFirst=True" in the File Settings.ini, the programme will automatically extend itself to the enhanced edition once it started. This feature can help the users extend their programme fast without going to the Option tab and click for several buttons. This feature is also supported in command line. Please use /? or /Help to acquire more information.
+    DirectX Acceleration will be detected automatically during the normal repairing process. The programme will prompt the users if some of DirectX Acceleration is still remained disabled after repairing.
+    Programme upgrade is available. The programme can upgrade to the latest version if the users click the Upgrade Button in the Form About. The programme will also extend its data packages intelligently after upgrade according to the current package status.
+
+Improved Features:
+    The dependence of required .NET runtime is optimised. From V4.0 on, this programme will no longer provide DirectX_Repair_win8_win10.exe by default. Instead, DirectX Repair.exe is designed to be compatible with all Windows OS versions to decrease the difficulty of selecting executable for new users.
+    Some C++ packages are updated. According to the feedbacks from some users, C++ 2013 and C++ 2015-2019 packages have been updated to the latest version. New packages have better compatibility and can fix more errors. Meanwhile, certificate errors from C++ 2013 on some systems can be repaired by this version.
+    Some features in "Option" dialogue have been moved. The options in Tab Lab have been moved to Advanced Tab, and some new functions that control the upgrade process is newly added to Lab tab.
+    The detection of API Sets is optimised. The new algorithm will check the files more deeply, and the results will just be OK or Error, instead of Available.
+    All Direct Acceleration can be enabled or disabled instantly in command line. Except DirectDraw which has been supported in previous versions, Direct 3D and AGP Texture can also be enabled or disabled instantly by command. Please use /? or /Help to acquire more information.
+    Improved the support of Windows XP OS. From V4.0 on, C++ enhanced repairing is no longer supported in this OS.
+    The feedback function is improved. The new code can support feedback better, and decrease sending failure generated by firewalls.
+    The tips for C++ enhanced repairing are improved. New tips will focus on the error code instead of other information which may generate influences on users. 
+    Some parts of English translation are improved. The new translations are more accurate and correct, which could provide a better understanding of the programme. Meanwhile, no other languages will be shown in English mode to avoid influences on users.
+    Improved the authentication for quiet mode. The new version can support authenticate to Chinese characters.
+    Other detailed improvements.
+
+Fixed Bugs:
+    A bug that may provide incorrect results of DirectX Acceleration on some Windows 10 OS is fixed.
+    A bug that will show incorrect layout of authorization information is fixed.
+
+--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------Dividing Line-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+DirectX Repair V3.9
+New Features:
+    A new feature that could detect the errors in graphics card driver is added. In the page DX Acceleration, the programme can detect the errors in graphics card driver (including not installed or too old) and notify the user about the potential issues.
+    Users can control the time of showing the prompts after repairing in the simple mode. This can be realized both through settings.ini (Timeout=xxx) or through command line (/timeout=xxx). xxx could be a number (unit: seconds), which will control the time of showing tips after repairing. The minimal value for xxx is 0, and the maximum is 99. If xxx exceeds 99, the programme will not exit automatically after repairing.
+
+Improved Features:
+    Some c++ packages are updated. According to the feedbacks from some users, c++ 2015-2019 packages have been updated to the latest version. New packages have better compatibility and can fix more errors.
+    The algorithm for detecting DX Acceleration is updated. Although the new algorithm is a little bit slower than the old one, it could be more accurate than past and provide the same results than the ones from dxdiag in most cases. The new algorithm also supports detect the errors in graphics card drivers. Meanwhile, the programme retains the old algorithm, users could force to use the old algorithm through settings.ini (AccelerationMode=Old) or through command line (/OldAccelerationMode). Please note that Windows 2000 is too old to support the new algorithm.
+    The support for c++ 2010 is optimized. The programme provides extra operation for c++ 2010 due to the repairing failed in some computers. This extra operation can be activated by enabling "C++ enhanced repairing" and "API Sets enhanced repairing" in "Option" dialog.
+    The log file system is optimized. In the new approach, the programme can show the results of c++2015-2019 and API Sets separately, which is easier for users to check the results.
+    The code for extending is optimized. The new code can improve the success rate of extending c++ packages significantly. It can notify the network mistakes and let the users to decide if to continue.
+    The size of this application drops dramatically. By optimizing the code of this programme, the size is much smaller than before.
+    The option "Enable debug mode when failed" in Lab tab has been updated. The programme will provide the number of files that were fixed failed in c++ updating page if users enable this option.
+    Some parts of English translation are improved. The new translations are more accurate and correct, which could provide a better understanding of the programme.
+    Some optimizations are made for Windows 2000 OS.
+    Other detailed improvements.
+
+Fixed Bugs:
+    A bug that could cause c++ extending failed in some special paths is fixed.
+    A bug which may cause repairing failure due to abnormal file attributes is fixed. To repair the files with these special attributes, please enable enhanced repairing.
+    A bug that may provide wrong messages when is being called from other applications is fixed.
+    A bug that may prompt incorrectly is fixed.
+
+--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------Dividing Line-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+DirectX Repair V3.8
+New Features:
+    New commands are available to enable or disable DirectDraw instantly from command line. Now the programme can enable or disable DirectDraw from command line without showing the main form. The new commands are: /EnableDirectDraw and /DisableDirectDraw. The new commands can be used associated with /passive or /quiet commands to perform automation tips.
+    Three new control modes for c++ components are added. The new modes are: "Do not detect c++", "Do not tick repairing c++ by default", and "Do not prompt c++ exceptions". Normally, enhanced edition will repair c++ by default; however, if you do not intend to repair c++, you could use these new modes. In "Do not detect c++" mode, the programme will only repair DirectX, even though you are using enhanced edition. In "Do not tick repairing c++ by default" mode, the sub menu next to button "Check and Repair" in the main form will not be ticked by default. Users will have to tick this option manually. In "Do not prompt c++ exceptions" mode, the standard edition of programme will not notify the user to update to enhanced edition when c++ exceptions are detected. You could enable these new modes in "settings.ini" by following commands: DetectC++=False, DefaultC++=False, PromptC++=False. Please use command /? or /help to check the approaches in command line by yourself.
+    A new c++ updating form pop-up mechanism is available. Normally, the enhanced edition will only show the arrow next to the button "Check and Repair" in the main form when there are some errors in c++ components. This design may confuse some users because it is difficult for them to distinguish if they are using standard edition or enhanced edition. Consequently, a new mechanism is added, in which the programme will always show this arrow regardless of whether there are errors in c++. You could enable this new mode in "settings.ini" by the following command: ForceDisplayC++=True. Please use command /? or /help to check the approaches in command line by yourself.
+
+Improved Features:
+    Some c++ packages are updated. According to the feedbacks from some users, c++ 2015/c++ 2017 packages have been updated to the latest version. New packages have better compatibility and can fix more errors.
+    The option "Enable debug mode when failed" in Lab tab has been updated. The programme will provide more information to address potential issues if this option is enabled.
+    The response when this programme is called from other applications is renewed. This new response is safer than before and is less possible being used illegally.
+    Other detailed improvements.
+
+Fixed Bugs:
+    A bug that could cause c++ enhanced repairing failure is fixed. 
+    A bug which may provide inaccurate tips in Windows 10 OS is fixed.
+    A bug that may display wrong tips under simple mode is fixed.
+    A bug that may display abnormal forms in non-standard display mode is fixed.
+    A bug which will show wrong caption in some message boxes is fixed.
+
+--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------Dividing Line-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+DirectX Repair V3.7 (Key Updates)
+New Features:
+    New support for DirectX 12. A file named d3dcompiler_47.dll which is belonging to DirectX is now supported.
+    New c++ packages are added. The programme can now support c++ 2017 redistributable packages and solve relevant problems. 
+    C++ Enhanced repairing is now available. If you cannot repair c++ during normal repairing, you can go to "Tool" -> "Option" -> "Lab", and enable "C++ enhanced repairing". This function can increase the success rate significantly. Please be aware that this experimental function should only be used when normal repairing is not successful.
+    API Sets enhanced repairing is now available. This enhanced mode can repair API Sets files carefully as DirectX files, which may improve the results of repairing. Please be aware that this experimental function should only be used when normal repairing is not successful.
+    Encrypted downloading link is now available. If you cannot extend the programme in normal operation, you could try to use this secure downloading link. Please add a new command in "settings.ini": SecureLink=True. This function is working if you can see an icon of a lock on the extending page.
+    Command line is supported. This programme can be run by command line and can accept parameters from command line. Please use the command "/help" to check available commands.
+    Traditional Chinese is available now. This programme can support Traditional Chinese, and it can adapt its language to system language automatically.
+    Two ways of setting security level are supported. If you add a new command in "settings.ini": ForceLowSecurity=True, the programme will be forced to run under low security to avoid unexpected errors; if you add a new command in "settings.ini": DefaultLowSecurity=True, the default value of security level for this programme is "Low". Please note that the second command mentioned above is only available for a new computer which has never run DirectX Repair before. If a computer has used DirectX Repair before, the default value of security level has already been set to "High" and cannot be modified by this command.
+    A new measure of viewing logs is added. If you drag the log file "log.dat" to "DirectX Repair.exe", the programme can show the log files automatically.
+
+Improved Features:
+    Some c++ packages are updated. According to the feedbacks from some users, c++ 2015 packages have been updated to the latest version. New packages have better compatibility and can fix more errors.
+    Improved the repairing of some c++ packages. The repairing of c++ 2015 is now divided into c++ 2015 main part and API Sets. These two components can be repaired and shown separately to avoid any confusion.
+    Promoted the support of c++ 2015 to multi operating systems. The programme can now repair the files accordingly no matter it is Windows 10 or Windows XP. This improvement can raise the repairing success rate.
+    Improved the mechanism of extending. Under new mechanism, the extending files are available directly after a extending process without the needs of restarting this programme.
+    Improved the tips after a c++ repairing. The programme can now intelligently detect if it is necessary to restart. If no restarting instructions are given, all the repairing which has been done is available directly.
+    Improved the tips if all the files are failed to be repaired. This type of error is usually generated by wrong verification, and it can be avoided by setting the security to "Low". New tips will guide the users to make such settings.
+    Some parts of English translation are improved. The new translations are more accurate and correct, which could provide a better understanding of the programme.
+    Other detailed improvements.
+
+Fixed Bugs:
+    A bug that may provide incorrect percentage when extending is fixed.
+    A bug which may show wrong system version number is fixed.
+    A bug that may provide inaccurate tips of c++ is fixed.
+
+--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------Dividing Line-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+DirectX Repair V3.5
+New Features:
+    New c++ packages are added. The programme can now support c++ 2015 redistributable packages and solve relevant problems. The rate for solving 0xc000007b problems increases due to the new packages.
+    The feature of Extending is added. You can open the ¡°Extending¡± page from sub-menu ¡°Option¡± under the menu ¡°Tool¡±. In this page, you can extend the programme with new c++ packages. It allows you to extend your Standard Edition or Online Edition to Enhanced Edition directly, without searching the Enhanced Edition from the Internet by yourself. Meanwhile, the programme still provides the link for downloading data package manually, which could be useful for the situations that Internet connection is unavailable.
+
+Improved Features:
+    Some c++ packages are updated. According to the feedbacks from some users, c++ 2013 packages has updated to the latest version. New packages have better compatibility and can fix more errors.
+    Messages for insufficient administrator privileges are improved. The new programme will check if you have administrator privileges before the repairing starts. A message will warn you if you do not have sufficient privileges to complete the repairing successfully in every Windows OS.
+    The notification of failed repairing for all the components has been improved. New tips will guide the users to enable Low Security directly, which might avoid the failures caused by the exceptions of the core system components.
+    The mechanism of checking c++ files has been improved. The new mechanism will be more intelligent when checking the files, and will require less unnecessary operations of the files.
+    Some parts of English translation are improved. The new translations are more accurate and correct, which could provide a better understanding of the programme.
+    Other detailed improvements.
+
+Fixed Bugs:
+    A bug that the programme may get stuck is fixed.
+    A bug which may show incorrect status when you are changing the DirectX Acceleration is fixed.
+    A bug that the programme may not be able to update c++ in some special paths is fixed.
+    A bug that c++ components might be failed to be updated in some special situations is fixed.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------Dividing Line-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+DirectX Repair V3.3
+Improved Features:
+    The codes for downloading files are optimized. When you are using the Online Edition, new codes will download files in a higher efficiency and save your time.
+    Donating page is improved. Three new separated pages which are Mobile Donation, Website Donation and Free Donation have replaced the old page. New pages are friendlier and will provide more information.
+
+Fixed Bugs:
+    A bug which may give wrong information when you are updating c++ has been fixed.
+    A bug which may lead to exceptions when this programme is being called by other software is fixed.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------Dividing Line-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+DirectX Repair V3.2
+New Features:
+    A function of controlling DirectX Acceleration is added. Although DirectX Acceleration is essential for most users, someone still find that their Acceleration is disabled or not available. There is a new tool in menu ¡°Option¡± which allows you to enable your Acceleration that has been disabled.
+    New c++ packages are added. The programme can now support c++ 2013 redistributable packages and solve relevant problems. The rate for solving 0xc000007b problems increases in some extent due to the new packages.
+    A function of showing copyright information is added. If you wish to call this programme by other software, there is a new switch for you to decide whether you want to show the copyright information of this programme before you start repairing.
+
+Improved Features:
+    Some c++ packages are updated. According to the feedbacks from some users, I update the packages of c++ 2012 to the latest version. New packages have a better compatibility and can fix more errors.
+    Displaying time for first running has decreased significantly. The code structure has been optimized to improve the speed of showing the main form.
+    Message box of completing has been improved. News tips are friendlier for users to operate the following steps.
+
+Fixed Bugs:
+    A bug which may cause failed updating of c++ 2012 in some computers is fixed.
+    A bug that feedback form displays exceptionally is fixed.
+    A bug which may provide incorrect tips of c++ updating is fixed.
+    A bug which may show exceptional forms in Windows 7 when using large fonts is fixed.
+    A bug which may show exceptional forms in Windows XP when enabling simple form style is fixed.
+    A bug that may lead to unwilling quit when enabling simple form style is fixed.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------Dividing Line-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+DirectX Repair V3.0 (Key Updates)
+New Features:
+    New c++ packages are added. The programme (only Enhanced Edition) can now fix more errors and solve more problems in your systems.
+    A function of registering files in a specific folder is added. The old versions can only register files in system folders, while the new programme allows you to register any files in any folder, which may benefit the users of using some special versions of software.
+
+Improved Features:
+    The ability of solving 0xc000007b errors in some industrial software has been optimized. The new programme makes a lot of improvements for industrial software (such as 3DS MAX, MAYA and so on), especially for 64-bit software. 
+    The programme is optimized on Windows 8.1 systems. Some codes have been improved to give an excellent compatibility and avoid errors on Windows 8.1 series OS.
+    Notifications of checking c++ components are improved. The programme will give separated messages of registries and files to show whether they have been repaired successfully. In normal context, it will not affect the running of other software if only registries are still exceptional after repairing.

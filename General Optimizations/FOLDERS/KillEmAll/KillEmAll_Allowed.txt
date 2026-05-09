@@ -1,0 +1,7 @@
+searchindexer.exe
+startmenuexperiencehost.exe
+searchapp.exe
+searchprotocolhost.exe
+searchfilterhost.exe
+secure system
+mpdefendercoreservice.exe

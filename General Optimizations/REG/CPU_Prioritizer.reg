@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Give more CPU priority to foreground applications
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:00000026
+
+; Disable background task "GameBar" and "Presence" services
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\GameDVR]
+"AppCaptureEnabled"=dword:00000000

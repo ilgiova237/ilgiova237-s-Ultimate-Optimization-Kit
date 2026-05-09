@@ -1,0 +1,9 @@
+    To the users who are still using Windows XP SP3, you need to install Microsoft .NET Framework 2.0 or higher versions before you can run this programme. Otherwise, you may suffer an issue of 0xc0000135.
+
+    The link for downloading Microsoft .NET Framework 2.0 SP2 is shown below:
+
+    https://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe
+
+    Please download the file NetFx20SP2_x86.exe (23.8MB) and then install it.
+
+    The ones who use Windows Vista, Windows 7, Windows 8, Windows 10 and Windows beyond can run this programme directly on your systems.

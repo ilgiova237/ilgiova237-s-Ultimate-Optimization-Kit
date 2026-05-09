@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; Disable Superfetch/SysMain (Stops the disk from constantly grinding)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000000
+"EnableSuperfetch"=dword:00000000
+
+; Disable Hibernate (Frees up GBs of disk space and stops hiberfil.sys writes)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"HibernateEnabled"=dword:00000000
+
+; Stop Windows from searching in the background
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowIndexingEncryptedStoresOrItems"=dword:00000000

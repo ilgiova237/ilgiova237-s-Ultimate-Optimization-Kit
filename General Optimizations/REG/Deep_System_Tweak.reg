@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+; Disable GameDVR (Massive CPU saver even for non-gamers)
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GameDVR]
+"AllowGameDVR"=dword:00000000
+
+; Disable Power Throttling (Stops Windows from "guessing" which app needs power)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling]
+"PowerThrottlingOff"=dword:00000001
+
+; Disable the "Aero Shake" (Stops a background listener for shaking windows)
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
+"NoWindowMinimizingShortcuts"=dword:00000001

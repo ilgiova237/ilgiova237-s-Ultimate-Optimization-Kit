@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+; Make menus pop up instantly
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="0"
+
+; Speed up the time it takes to kill a "Not Responding" app
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"WaitToKillAppTimeout"="2000"
+"HungAppTimeout"="2000"
+"AutoEndTasks"="1"
+
+; Speed up service shutdown time
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="2000"

@@ -1,0 +1,80 @@
+This file includes some frequently asked questions and answers about DirectX Repair. If you have any problems with the programme, please check first if there are answers below. Thank you.
+
+Question 1: Why the programme shows an error with code 0xc0000135 when I run it on a Windows XP OS?
+Answer: This programme requires a component called Microsoft .NET Framework 2.0 (or higher version) to run on Windows XP OS. Please check the file "To Windows XP users.txt" for further information.
+
+Question 2: I am using Standard Edition or Online Edition right now. How can I update it to Enhanced Edition?
+Answer: First of all, you need to know that the main programmes (exe file) for each edition are all the same. What make them different are the packages that they contain. Standard Edition and Online Edition do not include the extended c++ packages, so they cannot repair errors in c++ components. According to the situation, it is the easiest way for you to get the Enhanced Edition of programme by completing the missing packages. From version 3.5 on, the programme can extend itself. Try to open the "Option" form from "Tool" menu in the main form, and then you can extend the programme in the "Extending" page. The extending process requires Internet connection. The time of this process varies from a few seconds to a few minutes according to the Internet speed.
+
+Question 3: My network connection is normal, but why does the extending process always fails and prompts to connect to the Internet?
+Answer: This phenomenon might be caused by anti-virus software or firewalls in the computer. From DirectX Repair V4.0 on, this issue can be solved by switching to secure link in the Tab Extending by clicking the Lock Icon on the top left of this form.
+
+Question 4: I use the Standard Edition or Online Edition on some computers, and I receive a message telling me that c++ components are still exceptional after repairing. Although I think there are still errors in c++ components, this message is not shown on other computers after I use the Standard Edition. Can you tell me the reason? Is this a lucky issue?
+Answer: This programme is made mainly for solving 0xc000007b problems. Only when there are errors in c++ components which may lead to 0xc000007b errors will the programme alert. No warnings will be given if your computer has not installed c++ packages yet. Actually, this programme can solve any errors bringing by a missing c++ component such as lacking msvcr120.dll. However, the programme will not inform you anything about the problems of you c++ in such OS because nearly all the computers seem to lack some parts of c++ components. If this programme notices you about a missing in c++, it may appear every time after you use the Standard Edition. In this situation, there will not be any meanings for the existing of Standard Edition.
+
+Question 5: What should I do if SOME files are failed to be fixed?
+Answer: You can reboot your system in Safe Mode (the detailed steps for entering the Safe Mode can be found by Google), and then repair the files with this programme.
+
+Question 6: What should I do if the statuses of ALL files are DL failed or failed?
+Answer: This will rarely happen on some special computers. If your programme works incorrectly like this, you can go to the form "Option" from menu "Tool", and then change the "Security level" to "Low". After doing this, you can repair your files successfully.
+
+Question 7: Can this programme support 64-bit systems?
+Answer: Sure. This programme has been designed to run on different systems, and it definitely can run on 64-bit systems. In addition, the programme can detect the system information by itself, and do the right repairing automatically.
+
+Question 8: When I am playing games, some problems like unwilling quit, black screens, stuck screens, low fps and slow animation appear. Why it is still cannot be solved after a successful repairing?
+Answer: Many reasons may lead to such problems including DirectX errors and c++ exceptions. It can be addressed by using Enhanced Edition if the problems are caught by DirectX or c++. If the problems still exist after repairing, the possible reasons might be as listed below. Firstly, the game itself or the MOD has errors. You might solve it by re-downloading the game. Secondly, graphic drivers may have problems. This is a common situation and what you need to do is to re-install such drivers from official websites. Thirdly, insufficient hardware capability may also result in such problems.
+
+Question 9 The accelerations of DirectDraw, Direct 3D and/or AGP Texture are disabled or not available after repairing. What should I do?
+Answer: From version 3.2 on, there is a function in the programme to enable such accelerations. You could try this first in "Option" form. If you still cannot enable such features, it is usually caused by graphic driver errors, so you need to re-install the drivers from official websites (If the graphics card driver is invalid, the programme will prompt you in the upper right corner of form DirectX Acceleration. This function is only available in V3.9 or higher).
+
+Question 10: Is this programme only designed to repair errors in Disk C? How can I fix the errors in other disks?
+Answer: First I need to declare that this programme is NOT designed to repair errors only in Disk C. Instead, it can repair errors in the disk which is running the current OS. So, if you install your Windows in Disk C, the programme will repair errors in Disk C; if you install your system in Disk D, the programme will try to fix problems in Disk D. If there are more than one OS in your hard disk, the programme can only do the repairing in the disk which is booting the current OS. If you wish to fix all the errors in every OS, please boot your computer by these OS separately, and then run this programme in each OS.
+
+Question 11: I find some comments from Internet saying that the previous versions of the programme like V1.2 or V2.1 have a stronger ability of solving some specific problems. Those comments also say that do not use the latest versions. Can you tell me why?
+Answer: As the author of this programme, I can tell you responsibly and authoritatively that the new versions are absolutely better than the old ones. If some issues can be addressed by the old versions, it can be solved by the new versions as well. If some problems cannot be processed successfully by old versions, it might be addressed by the latest versions. So you do not need to worry about such comments in the Internet. I suggest every user to use the latest versions.
+
+Question 12: What version of DirectX is included in this programme?
+Answer: This programme contains the latest version of DirectX Redist (Jun2010). It consists of DirectX 9.0, DirectX 10.0, DirectX 10.1, DirectX 11 and DirectX 12. The programme will repair the files in each situation automatically and no settings need to be set manually. All the DirectX files have the digital signature from Microsoft and there is no need for you to worry about the safety of the files.
+
+Question 13: I am using some software requiring DirectX 11. Can this be repaired by your programme?
+Answer: Sure. As stated above, DirectX 11 is included in this programme.
+
+Question 14: My games cannot start because the error code 0xc000007b. Can this be fixed by your programme?
+Answer: Sure. This programme is mainly designed for solving 0xc000007b errors. Please see details from this website if you can read Chinese: http://blog.csdn.net/vbcom/article/details/6070705
+
+Question 15: A message saying some memory data (0xXXXXXXXX) cannot be read or written appears when I am playing my games. Can this be solved by your programme?
+Answer: Maybe. There are many reasons relating to this issue; for example, the game itself, missing c++ components, system errors, graphic drivers' exceptions and so on. This programme cannot fix every aspect. You are recommended to search solutions from Internet which are mainly for this problem. Re-installing your system might to be the best solution if you could do this.
+
+Question 16: When I am playing some games, a message shows up saying that DirectX 8.1 or higher version is required. However, I have installed DirectX and have repaired the system by this programme. How can I solve this?
+Answer: This message has a higher rate of showing when you are playing Warcraft. This issue is probably caused by graphic errors, so re-installing your drivers from official websites is the best way to solve it (If the graphics card driver is invalid, the programme will prompt you in the upper right corner of form DirectX Acceleration. This function is only available in V3.9 or higher).
+
+Question 17: Why my games still cannot be running after I repair my system successfully?
+Answer: Please make sure that you do NOT download any "dll" files under game folder from Internet by yourself. If you did this before, please delete all of them and then use this programme to repair again. Meanwhile, there are all kinds of other reasons which may lead to unwilling exceptions. If you can read Chinese, you can find more solutions about troubleshooting game & software errors from this page: http://blog.csdn.net/vbcom/article/details/6218535
+
+Question 18: Some components are failed to be repaired. Will it affect my system?
+Answer: No. This programme is only a tool programme. If it fails to fix any files, it will not affect your system.
+
+Question 19: What should I do if I failed to upgrade this programme through the built-in upgrade function?
+Answer: From V4.0 on, this programme can upgrade automatically by clicking the button in the form About. If you failed to upgrade through this button due to server errors, you can go to the following link to download the lasted version manually.
+https://blog.csdn.net/VBcom/article/details/6962388
+
+Question 20: My anti-virus software tells me that there seems to be some suspicious behaviour when I use your programme. Can you tell me why?
+Answer: DirectX components exist in your system folders. This programme needs to repair such files in system folders, which might be regarded as suspicious behaviours by some security software. Please choose "Permit", "Allow", "Yes" or "Continue" if your security software warns you. I promise that this programme will not damage your system. However, if you choose to trust your security software instead of this programme, please do NOT use this programme. What you need to do next is to delete this programme from your systems.
+
+Question 21: I download the Enhanced Edition from some websites, but why the item of c++ 2015-2019 in the updating form is greyed and cannot be repaired? Why the status of c++ 2015-2019 is still "-" in the log files after the repairing?
+Answer: According to the uploading rules of some websites, one programme cannot exceed a specific size; otherwise, the uploading will be declined. In order to meet the requirements of such websites, some Enhanced Edition of programmes do not contain c++ 2015-2019 packages. However, you do not need to worry about it. You can simply follow the steps in Question 2, and you can get full Enhanced Edition after your successful extending. Please note that, c++ 2015-2019 is just an example of what might happen in the context of this question. If any other c++ components such as c++ 2005, c++ 2008, c++ 2010, c++ 2012 and/or c++ 2013 have the similar status, you need to extend them as c++ 2015-2019.
+
+Question 22: What is the "DirectX Diagnostic Tool" inside your programme used for?
+Answer: Actually this tool in not inside my programme. My programme only calls the tool from your system. This tool can be used to check DirectX information, software's drivers, hardware's drivers and possible problems in your systems. If you do not know or do not need such information, please ignore this tool.
+
+Question 23: What are the log files used for?
+Answer: Log-files can restore the results of checking and repairing. It is easy to analyse potential reasons of unsuccessful repairing if you can provide logs. The default status of recording logs is on. It is not suggested to turn it off or change the mode. There is a hidden feature called "Extra Logs" in the programme. It can record extending process and c++ installation logs additionally. If you wish to activate this feature, please contact with the author by E-mail.
+
+Question 24: How can I view the logs?
+Answer: Click menu "File" in the programme, and then click "View logs". 
+
+Question 25: What does feedback mean?
+Answer: Feedback means that you can send some acknowledgement back to the author in order to improve the quality of the programme. To start feedback features, you need to click "Feedback" in menu "Help". If this programme addresses your problems, you could tell the author about it. On the contrary, if the programme fails to solve your worries, you could also send the feedback to the author so that the author may assist you with your problems.
+
+Question 26: How can I get contact with the author?
+Answer: You could use the feature "Feedback" to communicate with the author. You could also contact with the author by E-mails if the feedbacks are failed to be delivered to the author due to unwilling exceptions like Internet issues. You can find the author¡¯s E-mail address in the form "About" from menu "Help".

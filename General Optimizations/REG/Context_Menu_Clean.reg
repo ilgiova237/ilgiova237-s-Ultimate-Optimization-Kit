@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Remove "Give access to" from right-click
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\SharingCloudHandler]
+[-HKEY_CLASSES_ROOT\Directory\background\shellex\ContextMenuHandlers\SharingCloudHandler]
+
+; Remove "Share" from right-click
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing]
+
+; Remove "Include in library"
+[-HKEY_CLASSES_ROOT\Folder\ShellEx\ContextMenuHandlers\Library Location]
